@@ -30,8 +30,8 @@ class Triangle
   
   @sides = []
   
-  def initialize (side1, side2, side3)
-    @sides = [side1, side2, side3]
+  def initialize (a, b, c)
+    @sides = [a, b, c]
     @sides.sort!
   end
   
